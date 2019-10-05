@@ -1,6 +1,6 @@
-# function-utils project
+# function-utils
 
-One Paragraph of project description goes here
+Simple library of function wrappers to allow checked exceptions in lambda expressions
 
 ## Getting Started
 
@@ -71,5 +71,5 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Acknowledgments
 
-* Hat tip to **Grzegorz Piwowarek** for his article [Sneakily Throwing Exceptions in Lambda Expressions in Java](https://4comprehension.com/sneakily-throwing-exceptions-in-lambda-expressions-in-java/)
+* Hat tip to **Grzegorz Piwowarek** for his article [Sneakily Throwing Exceptions in Lambda Expressions in Java](https://4comprehension.com/sneakily-throwing-exceptions-in-lambda-expressions-in-java/).
 * Inspired by [Exceptions in Java 8 Lambda Expressions](https://www.baeldung.com/java-lambda-exceptions)</a>
