@@ -7,6 +7,15 @@
     <artifactId>function-utils</artifactId>
     <version>1.0.0</version>
 
+    <name>function-utils</name>
+    <description>Simple library of function wrappers to allow checked exceptions in lambda expressions</description>
+    <url>https://github.com/ymcsoft/function-utils</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
     <developers>
         <developer>
             <id>ymcsoft</id>
@@ -21,6 +30,26 @@
             <timezone>Canada/Pacific</timezone>
         </developer>
     </developers>
+    <scm>
+        <connection>scm:git:git://github.com/ymcsoft/function-utils.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ymcsoft/function-utils.git</developerConnection>
+        <url>https://github.com/ymcsoft/function-utils/tree/release_1_0_0</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <plugins>
@@ -59,17 +88,6 @@
             <id>release</id>
             <build>
                 <plugins>
-                    <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.7</version>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <serverId>ossrh</serverId>
-                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
-                        </configuration>
-                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
