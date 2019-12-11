@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.ymcsoft</groupId>
     <artifactId>function-utils</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>function-utils</name>
     <description>Simple library of function wrappers to allow checked exceptions in lambda expressions</description>
