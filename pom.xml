@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.ymcsoft</groupId>
     <artifactId>function-utils</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <name>function-utils</name>
     <description>Simple library of function wrappers to allow checked exceptions in lambda expressions</description>
@@ -33,7 +33,7 @@
     <scm>
         <connection>scm:git:git://github.com/ymcsoft/function-utils.git</connection>
         <developerConnection>scm:git:ssh://github.com:ymcsoft/function-utils.git</developerConnection>
-        <url>https://github.com/ymcsoft/function-utils/tree/release_1_0_0</url>
+        <url>https://github.com/ymcsoft/function-utils/tree/release_1_0_1</url>
     </scm>
 
     <distributionManagement>
